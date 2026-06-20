@@ -40,6 +40,7 @@ fintech-ledger-validator/
 │
 ├── tsconfig.json                 # Strict compiler configurations & module pathing
 └── package.json                  # Script execution engines and dependencies
+
 🚀 Getting Started
 Prerequisites
 Ensure you have Node.js (v16.x or higher) installed on your machine.
