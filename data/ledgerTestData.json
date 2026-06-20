@@ -1,0 +1,25 @@
+{
+  "successfulTransaction": {
+    "transactionId": "TXN-2026-001",
+    "currency": "USD",
+    "items": [
+      { "sku": "ITEM-A", "price": 19.99, "quantity": 2 },
+      { "sku": "ITEM-B", "price": 5.55, "quantity": 1 }
+    ],
+    "discountApplied": 5.00,
+    "taxRate": 0.0825,
+    "expectedTotal": 43.87,
+    "paymentStatus": "PAID"
+  },
+  "corruptedTransaction": {
+    "transactionId": "TXN-2026-002",
+    "currency": "USD",
+    "items": [
+      { "sku": "ITEM-C", "price": 10.00, "quantity": 1 }
+    ],
+    "discountApplied": 0,
+    "taxRate": 0.10,
+    "expectedTotal": 15.00,
+    "paymentStatus": "PAID"
+  }
+}
